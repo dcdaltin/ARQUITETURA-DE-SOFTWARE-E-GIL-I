@@ -27,3 +27,13 @@ Mulheres, em sua maioria, migrando de carreira no curso de programação
 ### SCRUMBAN
 
 <img src="https://d2poqm5pskresc.cloudfront.net/wp-content/uploads/2019/07/scrum-ban-delivery-sample.png" />
+
+
+### Estimativas
+- Capacidade de mão de obra
+- Definir detalhes e etapas a ser realizadas
+- Quebro em partes menores que conheço o esforço por experiências prévias
+- Escalonar tarefas e observar tarefas bloqueantes
+
+
+<img src="https://leonardomatsumota.files.wordpress.com/2019/09/story-points.jpg?w=820&h=312&crop=1" />
