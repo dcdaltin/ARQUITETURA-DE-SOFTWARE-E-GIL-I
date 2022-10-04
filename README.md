@@ -37,3 +37,79 @@ Mulheres, em sua maioria, migrando de carreira no curso de programação
 
 
 <img src="https://leonardomatsumota.files.wordpress.com/2019/09/story-points.jpg?w=820&h=312&crop=1" />
+
+
+## Clean Code
+<img src="https://miro.medium.com/max/1400/1*KvCweCeHKzxUedMRXhUg0Q.png" />
+
+Veja o código abaixo. O que ele faz?
+```js
+    function 
+    f (a, b, c)
+    {return 
+    (a + b + c)/3}
+```
+Olhando a modificação abaixo. O que essa função faz?
+```js
+    function f (a, b, c){
+        let media = (a + b + c)/3;
+        return (a + b + c)/3;
+    }
+```
+Olhando a modificação abaixo. O que essa função faz?
+```js
+    //a função abaixo calcula a média de notas
+    function f (a, b, c){
+        let media = (a + b + c)/3;
+        return (a + b + c)/3;
+    }
+```
+Olhando a modificação abaixo. O que essa função faz?
+```js
+    function calculaMedia (a, b, c){
+        let media = (a + b + c)/3;
+        return (a + b + c)/3;
+    }
+```
+
+Olhando para mais essa modificação abaixo. O que essa função faz?
+```js
+    function calculaMedia (nota1, nota2, nota3){
+        let media = (nota1 + nota2 + nota3)/3;
+        return (nota1 + nota2 + nota3)/3;
+    }
+```
+
+Ainda não é um código limpo. Onde está o problema?
+```js
+    function calculaMedia (nota1, nota2, nota3){
+        let media = (nota1 + nota2 + nota3)/3;
+        return media;
+    }
+```
+
+### SOLID
+
+<img src="https://lh3.googleusercontent.com/PSumtaweXnWy5CaiUJLdyUIrs9wJvr9UYCBIc5QaVQQDWLq_ZYd24A6twk2qTYj-2rtScSjCmqdbNx4g_g09wK1Kp09QS8uJA4vP3t2TMPbBmHz_xDHJqfikIovlouVJvTt2Yy37" />
+
+```js
+    class Motorista{
+        #automovel
+        constructor(automovel){
+            this.automovel = automovel
+        }
+    }
+```
+
+```js
+    function calculaMedia (...params){
+        let media = sum(params)/params.lenght
+        //o código calcula e imprime 
+        console.log(media)
+        return media;
+    }
+```
+
+### Code Smells
+
+[Code Smells são trechos de código com característica já conhecidas e que tem "cheiro de problema" e também guias de como resolvê-los](https://refactoring.guru/refactoring/smells)
