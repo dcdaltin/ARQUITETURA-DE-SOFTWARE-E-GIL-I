@@ -1,5 +1,7 @@
 # ARQUITETURA DE SOFTWARE E AGIL I
 
+Dalton
+
 ## Quem somos?
 Somos um time de professores que se organizaram como uma equipe ágil, rodando em formato de SCRUMBAN. Sendo assim, esses somos nós e esses são nossos papéis:
 - Dalton: Product Owner
