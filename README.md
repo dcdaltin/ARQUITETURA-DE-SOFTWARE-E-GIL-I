@@ -1,7 +1,5 @@
 # ARQUITETURA DE SOFTWARE E AGIL I
 
-Dalton!!
-
 ## Quem somos?
 Somos um time de professores que se organizaram como uma equipe ágil, rodando em formato de SCRUMBAN. Sendo assim, esses somos nós e esses são nossos papéis:
 - Dalton: Product Owner
@@ -115,3 +113,7 @@ Ainda não é um código limpo. Onde está o problema?
 ### Code Smells
 
 [Code Smells são trechos de código com característica já conhecidas e que tem "cheiro de problema" e também guias de como resolvê-los](https://refactoring.guru/refactoring/smells)
+
+### DDD
+
+[O que é o DDD?](https://medium.com/spotlight-on-javascript/domain-driven-design-for-javascript-developers-9fc3f681931a)
