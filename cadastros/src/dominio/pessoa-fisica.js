@@ -1,5 +1,5 @@
 const Pessoa = require("./pessoa.js")
-const pessoaEvento = require('./eventos/pessoa.evento.js');
+const pessoaEvento = require('../eventos/pessoa.evento.js');
 
 
 

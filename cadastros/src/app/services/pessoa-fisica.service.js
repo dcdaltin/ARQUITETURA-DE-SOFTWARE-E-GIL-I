@@ -1,4 +1,4 @@
-const pessoaEvento = require('../../dominio/eventos/pessoa.evento.js');
+const pessoaEvento = require('../../eventos/pessoa.evento.js');
 const PessoaFisica = require("../../dominio/pessoa-fisica.js")
 
 class PessoaFisicaService {
