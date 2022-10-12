@@ -32,7 +32,7 @@ class PessoaFisica extends Pessoa {
         if (!resultado) {
             throw new Error("Cpf invalido")
         }
-        return Number(cpf)
+        return formataCpfString
     }
 
 
