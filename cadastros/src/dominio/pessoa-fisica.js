@@ -13,14 +13,12 @@ class PessoaFisica extends Pessoa {
     static criar(nome, contato, dataNascimento, cpf) {
         const resultadoValidacaoCpf = PessoaFisica.validarCpf(cpf)
         const pessoaFisica = new PessoaFisica(nome, contato, dataNascimento, resultadoValidacaoCpf)
-        pessoaEvento.emit("pessoa-fisica.criada", pessoaFisica)
         return pessoaFisica
     }
 
     static atualizar(pessoaFisica) {
         const resultadoValidacaoCpf = PessoaFisica.validarCpf(pessoaFisica.cpf)
         const novaPessoaFisica = new PessoaFisica(pessoaFisica.nome, pessoaFisica.contato, pessoaFisica.dataNascimento, resultadoValidacaoCpf)
-        pessoaEvento.emit("pessoa-fisica.atualizada", novaPessoaFisica)
         return novaPessoaFisica
     }
 
