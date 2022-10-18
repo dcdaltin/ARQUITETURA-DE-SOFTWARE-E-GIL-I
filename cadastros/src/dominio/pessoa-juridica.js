@@ -9,7 +9,7 @@ class PessoaJuridica extends Pessoa {
     }
     static criar(nome, contato, dataNascimento, cnpj) {
         const resultadoValidacaoCnpj = PessoaJuridica.validarCnpj(cnpj)
-        const PessoaJuridica = new PessoaJuridica(nome, contato, dataNascimento, resultadoValidacaoCnpj)
+        const pessoaJuridica = new PessoaJuridica(nome, contato, dataNascimento, resultadoValidacaoCnpj)
         pessoaEvento.emit("pessoa-juridica.criada", pessoaJuridica)
         return pessoaJuridica
     }
